@@ -1,0 +1,21 @@
+- HTML
+	-> O que é o HTML?
+	-> Criando o primeiro arquivo.
+		- Porque index.html?
+		- poderia ser outro nome?
+        - Estrutura HTML feita através de TAGS
+        Assim como toda estrutura, no HTML seguimos a base de início, meio e fim.
+        <html></html> Onde a tag que da início, é o nome da tag, e a tag que fecha a estrutura, fecha com a /
+        - Serve para todas as tags? Não
+        - Como eu vou saber quando inicia e termina e quando ela é única?
+        Você vai se acostumando e nem sempre você saberá e conhecerá 100% de uma linguagem. 
+        Quando você achar que sabe de tudo, surge uma atualização. 
+    -> Títulos
+
+- CSS
+	-> O que é o CSS?
+    -> Como usar o CSS no HTML?
+
+- JS
+	-> O que é o JS
+    -> Como usar o JS no HTML?

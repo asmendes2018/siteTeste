@@ -1,0 +1,47 @@
+.pilares{
+    padding-bottom: 10vw;
+    background-color: #ffffff;
+}
+.conteudo-pilares{
+    display: inline-flex;
+    margin: 0.5vw 2.5vw;
+    
+}
+.conteudo-pilares div{
+    margin: 3vw;
+    border-radius: 12px;
+    padding: 0px;
+    border: 1px solid #000066;
+}
+.conteudo-pilares img{
+    width: 12vw;
+}
+.conteudo-pilares p{
+   padding: 0vw 2vw;
+}
+.pilares a{
+    padding: 10px 25vw 10px 25vw;
+    border-radius: 15px;
+    background-color: #000033; 
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .conteudo-pilares{
+        display: block;
+        padding-top: 0vw;
+    }
+    .pilares div{
+        margin: 2vw 10vw;
+        padding: 5vw;
+        
+        padding-top: 0vw;
+    }
+    .conteudo-pilares img{
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 15vw;
+    }
+}

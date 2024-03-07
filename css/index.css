@@ -1,0 +1,33 @@
+@import url('menu.css');
+@import url('inicio.css');
+@import url('sobre.css');
+@import url('pilares.css');
+@import url('servicos.css');
+@import url('contato.css');
+@import url('rodape.css');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 3vw;
+    padding-top: 8vw;
+    padding-bottom: 0px;
+}
+
+div{
+    margin-top: 0px;
+    padding-bottom: 35px;
+}
+h5{
+    font-size: 1.3rem;
+    margin: 0px;
+}

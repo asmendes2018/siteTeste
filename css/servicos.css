@@ -1,0 +1,40 @@
+.servicos{
+    background-image: url('../img/fundo-servico.jpeg');
+  
+    background-size: 700px;
+}
+.servicos h3{
+    color: #ffffff;
+}
+.linha-servicos{
+    display: inline-flex;
+}
+.servico{
+    width: 28vw;
+    margin: 2vw;
+    padding: 1vw;
+    border: 1px solid #000066; 
+    border-radius: 12px;
+    background-color: #d0d0d0;
+}
+.servico img{
+    border-radius: 25px;
+    width: 12vw;
+    margin-bottom: 2vw;
+}
+
+@media (max-width: 700px) {
+    .linha-servicos{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    .servico{
+        margin: 2vw auto;
+        width: 55vw;
+        padding: 3vw;
+    }
+    .servico img{
+        width: 20vw;
+    }
+}

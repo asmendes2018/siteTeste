@@ -1,0 +1,53 @@
+.contato{
+    background-color: #000033; 
+    color: #ffffff;
+    padding-bottom: 0vw;
+}
+.linha-contato{
+    display: inline-flex;
+    padding: 5vw;
+    padding-bottom: 0px;
+}
+.linha-contato div{
+    margin: 5vw;
+    margin-top: 0px;
+    width: 20vw;
+}
+.linha-contato img{
+    height: 20vw;
+    margin: auto 10vw;
+}
+.contato .linha-contato input, select, textarea{
+    border-radius: 18px;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 1.3vw;
+    margin: 0.5vw;
+    width: 100%;
+}
+.enviar{
+    background-color: green;
+    color: #ffffff;
+}
+
+
+@media (max-width: 800px) {
+    .linha-contato{
+        display: block;
+        padding: 5vw;
+    }
+    .linha-contato div{
+        margin: 5vw;
+        width: 100%;
+        margin-top: 0vw;
+    }
+    .contato .linha-contato input, select, textarea{
+        width: 40vw;
+        margin-left: -10vw;
+        padding: 1.3vw;
+    }
+    .linha-contato img{
+        width: 55vw;
+        height: auto;
+    }
+}
